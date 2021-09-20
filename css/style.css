@@ -1,0 +1,42 @@
+body{
+	background: grey;
+}
+table{
+	width: 800px;
+	margin: auto;
+	table-layout: fixed;
+	text-align: center;
+	margin-top: 50px;
+	font-family: arial;
+	color: #fff;
+	text-transform: uppercase;
+}
+table:hover{
+	background: #fff;
+}
+table, th, td{
+	border:2px dotted #fff;
+	border-collapse: collapse;
+	padding: 20px;
+	font-size: 20px;
+}
+th{
+	background: purple;
+	padding: 20px;
+	text-transform: uppercase;
+}
+td:nth-child(5n+1){
+	background: red;
+}
+td:nth-child(5n+2){
+	background: blue;
+}
+td:nth-child(5n+3){
+	background: green;
+}
+td:nth-child(5n+4){
+	background: orange;
+}
+td:nth-child(5n+5){
+	background: #000;
+}
